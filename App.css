@@ -1,0 +1,141 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: azure;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.icegif.com/wp-content/uploads/2022/01/icegif-1023.gif");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container{
+  width: 350px;
+  padding: 20px;
+  background:transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px black;
+  
+}
+.container .weather-details {
+  display: none;
+}
+
+.container.hovered .weather-details {
+  display: block;
+}
+
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(141, 141, 206);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityinput{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+background: transparent;
+font-size: xx-large;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 800;
+text-align: center;
+}
+.normal{
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.normal img{
+  object-fit: contain;
+  width: 25px;
+  margin-top: 5px;
+}
+.weatherdtl icon{
+  width: 30px;
+}
+.image{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.image img{
+  width: 160px;
+  height: 160px;
+}
+.temp,
+.location,
+.country{
+  margin-top: 5px;
+  font-size: 35px;
+  color: cadetblue;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  color: darkgoldenrod;
+  font-weight: 400;
+  font-size: 40px;
+}
+.cord{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+.cord div span{
+  font-size: 14px;
+
+}
+.humidity-percent
+.cord div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color: blueviolet;
+  padding-top: 5px;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between !important; /* Use !important to override any conflicting styles */
+  margin-top: 20px;
+}
+.text{
+  font-size: 12px;
+  color: cornflowerblue;
+
+}
+.copywrite{
+  text-align: center;
+  font-size: 12px;
+  color: rgb(45, 175, 214);
+}
+.copywrite span{
+  color: brown;
+}
+.element{
+  text-align: center;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+}
